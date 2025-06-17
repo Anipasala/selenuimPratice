@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="reading_excel.ExcelReading">
+      <class name="DynamicTable.dynamic_table">
         <methods>
-          <include name="tc01"/>
+          <include name="tc_001"/>
         </methods>
-      </class> <!-- reading_excel.ExcelReading -->
+      </class> <!-- DynamicTable.dynamic_table -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
