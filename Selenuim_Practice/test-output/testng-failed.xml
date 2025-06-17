@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="DynamicTable.dynamic_table">
+      <class name="FileUpload.UploadingFileWithoutSendKeys">
         <methods>
           <include name="tc_001"/>
         </methods>
-      </class> <!-- DynamicTable.dynamic_table -->
+      </class> <!-- FileUpload.UploadingFileWithoutSendKeys -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
